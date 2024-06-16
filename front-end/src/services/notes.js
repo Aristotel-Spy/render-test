@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/api/notes'
+const baseUrl = '/api/notes'
+//base url changed to a relative url no matter the server
 
 //this is how we will be able to retrieve from the json server the list of note objects.
 

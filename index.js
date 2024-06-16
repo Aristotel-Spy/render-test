@@ -9,6 +9,10 @@ app.use(express.json())
 
 app.use(cors()) //use the middleware here 
 
+app.use(express.static('dist')) //so that we can
+//show the front-end as a static page in the backend web
+//deployment
+
 //To access the data easily, we need the help of the Express 
 //json-parser that we can use with the command app.use(express.json()).
 //this is necessary to POST data to our json file on the server.
